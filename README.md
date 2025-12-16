@@ -6,12 +6,6 @@ A small but production-minded lab project to demonstrate:
 - Incident operation (Runbook + Postmortem)
 - Preventative hardening (healthcheck + auto-restart)
 
-## Quick Start
-```powershell
-docker compose up -d --build
-<<<<<<< HEAD
-Validation:
-- `docker ps` shows `cloudops_app` as `(healthy)`
 
 ## Evidence (Screenshots)
 
@@ -23,6 +17,8 @@ Validation:
 
 ### Healthcheck
 ![docker ps healthy](docs/screenshots/docker_healthy.png)
-=======
 
->>>>>>> f5b6814d338488df88771595929186f16f8fe3a9
+ 
+## Quick Start
+```powershell
+docker compose up -d --build
