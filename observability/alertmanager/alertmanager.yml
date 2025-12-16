@@ -1,0 +1,11 @@
+route:
+  receiver: "default"
+  group_wait: 5s
+  group_interval: 30s
+  repeat_interval: 2m
+
+receivers:
+  - name: "default"
+    # 面接用なのでまずはUIで確認できれば十分（外部通知は後で）
+    # webhook_configs:
+    #   - url: "http://example-webhook"
